@@ -1,14 +1,14 @@
 class Buttons {
   static const String del = 'DEL';
   static const String clr = 'AC';
-  static const String mul = '×';
-  static const String div = '÷';
-  static const String plu = '+';
-  static const String min = '-';
+  static const String multiply = '×';
+  static const String divide = '÷';
+  static const String add = '+';
+  static const String subtract = '-';
   static const String ans = 'Ans';
-  static const String equ = '=';
-  static const String poi = '.';
-  static const String xten = 'x10^(x)';
+  static const String calculate = '=';
+  static const String dot = '.';
+  static const String xten = '×10^';
 
   static const String n0 = '0';
   static const String n1 = '1';
@@ -30,17 +30,17 @@ class Buttons {
     n4,
     n5,
     n6,
-    mul,
-    div,
+    multiply,
+    divide,
     n1,
     n2,
     n3,
-    plu,
-    min,
+    add,
+    subtract,
     n0,
-    poi,
+    dot,
     xten,
     ans,
-    equ
+    calculate
   ];
 }
